@@ -166,7 +166,7 @@ body.light-theme{
 .light-theme .skills__content,
 .light-theme .services__card,
 .light-theme .work__card,
-.light-theme .testimonial__card,
+.light-theme .project__card,
 .light-theme .contact__card{
   box-shadow: 0 2px 16px hsla(var(--second-hue), 48%, 8%,.1);
 }
@@ -662,26 +662,26 @@ body.light-theme{
   color: var(--body-color);
 }
 
-/*=============== TESTIMONIAL ===============*/
-.testimonial__card{
+/*=============== project ===============*/
+.project__card{
   background-color: var(--container-color);
   padding: 1.25rem 1.5rem;
   border-radius: 1.5rem;
   margin-bottom: 3rem;
 }
 
-.testimonial__img{
+.project__img{
   width: 60px;
   border-radius: 3rem;
   margin-bottom: 1rem;
 }
 
-.testimonial__name{
+.project__name{
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   margin-bottom: .25rem;
 }
-.testimonial__description{
+.project__description{
   font-size: var(--small-font-size);
 }
 
@@ -1026,10 +1026,10 @@ body.light-theme{
   .work__title{
     margin-bottom: .5rem;
   }
-  .testimonial__container{
+  .project__container{
     width: 750px;
   }
-  .testimonial__card{
+  .project__card{
     padding: 1.5rem 2rem;
   }
   .contact__container{

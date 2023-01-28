@@ -48,8 +48,8 @@ function activeWork() {
 }
 linkwork.forEach(l => l.addEventListener('click', activeWork))
 
-/*=============== SWIPER TESTIMONIAL ===============*/
-let swiperTestimonial = new Swiper(".testimonial__container", {
+/*=============== SWIPER project ===============*/
+let swiperproject = new Swiper(".project__container", {
     spaceBetween: 24,
     loop: true,
     grabCursor: true,
