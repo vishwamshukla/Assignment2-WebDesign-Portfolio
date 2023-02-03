@@ -320,13 +320,13 @@ body.light-theme{
 }
 .home__handle{
   justify-self: center;
-  width: 10px;
-  height: 20px;
-  /* background: linear-gradient(180deg,
+  width: 190px;
+  height: 293px;
+  background: linear-gradient(180deg,
               hsla(var(--first-hue),var(--sat),var(--lig),1),
               hsla(var(--first-hue),var(--sat),var(--lig),.2)
-              ); */
-  border-radius: 1rem 1rem 1rem 1rem;
+              );
+  border-radius: 10rem 10rem 1rem 1rem;
   display: flex;
   align-items: flex-end;
   justify-content: center;
